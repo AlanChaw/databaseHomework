@@ -1,3 +1,3 @@
 # databaseHomework
 
-###my database homework- an expert info management system
+###my database homework- an expert info manage system
