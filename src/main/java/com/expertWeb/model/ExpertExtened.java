@@ -7,7 +7,10 @@ import java.util.List;
  */
 public class ExpertExtened {
     private Expert;
+    private List<Qualification> qualificationList;
     private List<Review_exp> review_expList;
+    private List<WorkExp> workExpList;
+    private List<AvoidUnit> avoidUnitList;
 
 
 }

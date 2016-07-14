@@ -31,6 +31,10 @@ public class Expert {
     private String graduate;    //毕业院校及专业
     private Integer field;  //评审领域
 
+    private String speciality;  //业务专长
+    private String performance;   //工作业绩
+    private String others;   //其他说明
+
     public Integer getCredentials_type() {
         return credentials_type;
     }
@@ -131,6 +135,18 @@ public class Expert {
         return work_unit;
     }
 
+    public String getOthers() {
+        return others;
+    }
+
+    public String getPerformance() {
+        return performance;
+    }
+
+    public String getSpeciality() {
+        return speciality;
+    }
+
     public void setBorn_date(String born_date) {
         this.born_date = born_date;
     }
@@ -229,5 +245,17 @@ public class Expert {
 
     public void setWork_unit(String work_unit) {
         this.work_unit = work_unit;
+    }
+
+    public void setOthers(String others) {
+        this.others = others;
+    }
+
+    public void setPerformance(String performance) {
+        this.performance = performance;
+    }
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
     }
 }
